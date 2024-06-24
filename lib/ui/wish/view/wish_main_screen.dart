@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:money_record_note/widget/main_bottom_navigation_bar.dart';
+import 'package:money_record_note/widget/main_app_bar.dart';
 
 class WishMainScreen extends StatefulWidget {
   const WishMainScreen({super.key});
@@ -12,6 +12,7 @@ class _WishMainScreenState extends State<WishMainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: MainAppBar(),
       body: Text('Wish Main Screen'),
     );
   }

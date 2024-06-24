@@ -22,16 +22,17 @@ class MoneyRecordNote extends StatefulWidget {
 class _MoneyRecordNoteState extends State<MoneyRecordNote> {
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return SafeArea(child:
+      GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-            seedColor: mainGreen,
+            seedColor: mainPeach,
         brightness: Brightness.light),
         useMaterial3: true,
       ),
       home: MainBottomNavigationBar(),
-
+      )
     );
   }
 

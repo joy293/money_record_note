@@ -51,11 +51,11 @@ class _MainBottomNavigationBarState extends State<MainBottomNavigationBar> {
         body: pages[bottomNavigationBarController.tabIndex.value],
         bottomNavigationBar: SnakeNavigationBar.color(
       snakeShape: SnakeShape.circle,
-      backgroundColor: mainOrange,
+      backgroundColor: mainGreen,
       shape: LinearBorder.bottom(),
       snakeViewColor: mainYellow,
       selectedItemColor: mainRed,
-      unselectedItemColor: mainPeach,
+      unselectedItemColor: Colors.white,
       showUnselectedLabels: false,
       showSelectedLabels: false,
 
