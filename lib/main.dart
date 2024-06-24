@@ -25,16 +25,26 @@ class _MoneyRecordNoteState extends State<MoneyRecordNote> {
     return SafeArea(child:
       GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-            seedColor: mainPeach,
-        brightness: Brightness.light),
-        useMaterial3: true,
-      ),
+      theme: lightMode,
+      darkTheme: darkMode,
       home: MainBottomNavigationBar(),
       )
     );
   }
+
+  // 라이트 테마
+  ThemeData lightMode = ThemeData(
+    colorScheme: ColorScheme.fromSeed(seedColor: mainGreen),
+    useMaterial3: true,
+    scaffoldBackgroundColor: Colors.white
+  );
+
+  // 다크 테마
+  ThemeData darkMode = ThemeData(
+    colorScheme: ColorScheme.fromSeed(seedColor: mainGreen),
+    useMaterial3: true,
+    scaffoldBackgroundColor: Colors.white10
+  );
 
   // Name을 지정하여 페이지 이동
   // getPages: [
