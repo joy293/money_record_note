@@ -26,7 +26,7 @@ class _MoneyRecordNoteState extends State<MoneyRecordNote> {
       GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: lightMode,
-      darkTheme: darkMode,
+      // darkTheme: darkMode,
       home: MainBottomNavigationBar(),
       )
     );

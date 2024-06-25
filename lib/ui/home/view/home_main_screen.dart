@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:money_record_note/ui/home/widget/money_record_chart.dart';
 import 'package:money_record_note/widget/main_app_bar.dart';
 import 'package:money_record_note/widget/main_bottom_navigation_bar.dart';
 
@@ -14,7 +15,8 @@ class _HomeMainScreenState extends State<HomeMainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: MainAppBar(),
-      body: Text('Home Main Screen'),
+      body: MoneyRecordChart(),
+      // body: Text('Home Main Screen'),
     );
   }
 }

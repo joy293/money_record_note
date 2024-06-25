@@ -15,6 +15,7 @@ class _MainAppBarState extends State<MainAppBar> {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      // backgroundColor: Colors.white,
       backgroundColor: mainGreen,
       leading: Center(
           child: Text('가계부',
