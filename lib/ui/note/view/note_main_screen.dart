@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:money_record_note/widget/main_bottom_navigation_bar.dart';
+import 'package:money_record_note/widget/main_app_bar.dart';
 
 class NoteMainScreen extends StatefulWidget {
   const NoteMainScreen({super.key});
@@ -12,7 +12,8 @@ class _NoteMainScreenState extends State<NoteMainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('Note Main Screen'),
+      appBar: MainAppBar(),
+      body: Text('월별 잔고 메모 또는 기억해야 할 소비메모 추가하는 화면'),
     );
   }
 }
