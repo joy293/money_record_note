@@ -13,7 +13,7 @@ class _NoteMainScreenState extends State<NoteMainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: MainAppBar(),
-      body: Text('Note Main Screen'),
+      body: Text('월별 잔고 메모 또는 기억해야 할 소비메모 추가하는 화면'),
     );
   }
 }

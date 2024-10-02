@@ -15,18 +15,15 @@ class _MainAppBarState extends State<MainAppBar> {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      // backgroundColor: Colors.white,
-      backgroundColor: mainGreen,
+      backgroundColor: Colors.transparent,
       leading: Center(
-          child: Text('가계부',
-          style: TextStyle(color: Colors.white),
+          child: Icon(Icons.menu, color: mainGreen,
           )),
       actions: [
         IconButton(
             onPressed: () {  },
             icon: Icon(Icons.notifications_none,
-              color: Colors.white)
-
+              color: mainGreen)
         )
       ],
     );
